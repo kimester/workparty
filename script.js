@@ -26,7 +26,20 @@ $( ".time-block" ).each(function( index ) {
   $( ".saveBtn" ).click(function() {
    console.log("Button clicked", $(this))
    //grab the time and description using siblings 
+let data = $(this).prev().val()
+let timeBlock = $(this).prev().attr("id")
+console.log( $(this).prev().attr("id"))
+ localStorage.setItem(timeBlock, data);
+ 
 
-  // localStorage.setItem(time, desc)
+//  const myObj = { time: "9", time: "10" };
+//  const myJSON = JSON.stringify(myObj);
+//  localStorage.setItem("testJSON", myJSON);
+
+//  ///  Json.Stringify
+// 
+//  const time = JSON.parse(json)
+ // json.parse
+ // []
   });
    
