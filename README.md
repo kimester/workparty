@@ -3,6 +3,7 @@
 ```md
 A simple yet efficient planner. 
 materials used: CSS, HTML, JAVASCRIPT
+ https://kimester.github.io/workparty/
 ```
 
 
